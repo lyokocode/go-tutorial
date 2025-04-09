@@ -60,7 +60,38 @@ func main() {
 	fmt.Println("Hello World! I'm Aelita.")
 }
 ```
+
+### ▶️ Uygulamayı Nasıl Çalıştırırız?
+
 Peki bu kodun satır satır ne anlama geldiğini biliyor musunuz? Gelin beraber inceleyelim ve öğrenelim.
+
+Go dilinde bir .go dosyasını çalıştırmak oldukça kolaydır. Aşağıdaki adımları takip ederek yazdığınız programı terminal (komut satırı) üzerinden çalıştırabilirsiniz.
+
+#### 1. Dosyayı Kaydedin
+Örneğin kodu bir dosyaya kaydedelim:
+
+```bash
+hello-world.go
+```
+
+#### 2. Terminali Açın ve Dosyanın Bulunduğu Klasöre Geçin
+```
+cd /path/to/your/file
+```
+
+örneğin;
+
+```bash
+cd go-tutorial/01-hello-world
+```
+
+##### 3. Programı Çalıştırın
+Go dosyasını çalıştırmak için aşağıdaki komutu kullanabilirsin:
+
+```go
+go run hello-world.go
+```
+Eğer her şey yolundaysa, terminalde şu çıktıyı görmelisin: `Hello World! I'm Aelita`
 
 ### 📦 package main Nedir?
 
