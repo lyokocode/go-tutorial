@@ -8,3 +8,4 @@ Bu repo, Golang öğrenme sürecimde tuttuğum örnekleri ve notları içerir.
 - [02 - Nasıl Çalışır](./02-how-to-work)
 - [03 - Kod Yapısı ve Analiz](./03-code-structure-and-analysis)
 - [04 - Değişken Tanımlama](./04-veriable-defination)
+- [05 - Basit Veri Tipleri](./05-basic-data-types)
